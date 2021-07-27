@@ -1,0 +1,51 @@
+{
+  "name": "shuffle-online",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chartiful/react-chart-builder": "^0.1.6",
+    "@chartiful/react-line-graph": "^0.1.5",
+    "@heruka_urgyen/react-playing-cards": "git+https://github.com/heruka-urgyen/react-playing-cards.git",
+    "@material-ui/core": "^4.11.4",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
+    "deck-js": "^1.1.0",
+    "r-chart": "^7.5.3",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-canvas-spark-line": "^1.0.1",
+    "react-dom": "^17.0.2",
+    "react-line-graph": "^1.0.6",
+    "react-playing-card": "^0.2.5",
+    "react-playing-cards": "git+https://github.com/listingslab/react-playing-cards.git",
+    "react-poker": "0.0.77",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
