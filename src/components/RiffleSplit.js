@@ -145,14 +145,11 @@ const RiffleSplit = () => {
                 </Row>
 
                 <Row style={{ justifyContent: 'center' }}>
-
                     <Button id="TEST1" onClick={ClassicShuffle} style={{ margin: '5px' }} >Shuffle</Button>
                     <Button onClick={TenClassicShuffles} style={{ margin: '5px' }} >Shuffle 10</Button>
                     <Button onClick={HundredClassicShuffles} style={{ margin: '5px' }} >Shuffle 100</Button>
                     <Button onClick={HandleReset} style={{ margin: '5px' }} >Reset</Button>
-
                 </Row>
-
 
                 <Row style={{ justifyContent: 'center' }}>
                     <Chart
@@ -168,23 +165,12 @@ const RiffleSplit = () => {
                             xAxis
                         }
                     />
-
                 </Row>
-
 
                 <Row style={{ justifyContent: 'center' }}>
-
                     <ShowCards AllCards={NewDeck} />
-
                 </Row>
-
-
             </Col>
-
-
-
-
-
         </div>
     );
 }

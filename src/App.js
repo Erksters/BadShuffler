@@ -9,13 +9,31 @@ const App = () => {
 
   return (
     <div style={{ justifyContent: 'center', display: 'flex' }}>
-      <div style={{ maxWidth: "1100px" }}>
-        <Title />
-        <ManufacturedDeckParent />
-        <RiffleSplitParent />
-        <OverHandParent />
-        <BestShuffleParent />
-      </div>
+
+      {
+        window.screen.width > 1100 ?
+
+          (<div className="d-none d-lg-block" style={{ maxWidth: "1100px" }}>
+            <Title />
+            <ManufacturedDeckParent />
+            <RiffleSplitParent />
+            <OverHandParent />
+            <BestShuffleParent />
+          </div>)
+          :
+
+          (<div className="d-lg-none" style={{ maxWidth: window.screen.width - 50 }} >
+
+            <Title />
+            <ManufacturedDeckParent />
+            <RiffleSplitParent />
+            <OverHandParent />
+            <BestShuffleParent />
+          </div>
+          )
+      }
+
+
 
     </div>
 
@@ -23,3 +41,10 @@ const App = () => {
 }
 
 export default App;
+
+
+//      <div className="d-none d-lg-block" style={{ maxWidth: "1100px" }}>
+//      <div/>
+
+//      <div className = "d-lg-none">
+//      <div/>

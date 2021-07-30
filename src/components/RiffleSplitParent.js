@@ -14,7 +14,8 @@ const RiffleSplitParent = () => {
             <br />
             <div style={{ textAlign: 'center' }}>
                 <h4>Riffle Split example</h4>
-                <img src="https://fredhohman.com/card-shuffling/static/images/riffle.gif" alt="classic shuffle gif" />
+
+                <img style={{ maxWidth: window.screen.width - 80 }} src="https://fredhohman.com/card-shuffling/static/images/riffle.gif" alt="classic shuffle gif" />
             </div>
 
             <br />
@@ -22,13 +23,13 @@ const RiffleSplitParent = () => {
             <RiffleSplit />
             <br />
             After a while, the deck does approach a random assortment of cards. Unfortunately, this type of shuffling method doesn't allow
-             new cards on to the top or bottom of the deck. It is extremely static on the ends of the deck.
-              If this is the only method of shuffling used, you will be recycling used cards again and again.
+            new cards on to the top or bottom of the deck. It is extremely static on the ends of the deck.
+            If this is the only method of shuffling used, you will be recycling used cards again and again.
 
-              What's worse, is that if you perfect your shuffling skill (slide the bar to 100 and shuffle 100 times),
-              then you will see the deck shuffles through five or six different orientations.
-               The solution to these issues are to shuffle more than a handful of times and to shuffle poorly.
-               This way, you'll give every orientation of the deck a chance to exist.
+            What's worse, is that if you perfect your shuffling skill (slide the bar to 100 and shuffle 100 times),
+            then you will see the deck shuffles through five or six different orientations.
+            The solution to these issues are to shuffle more than a handful of times and to shuffle poorly.
+            This way, you'll give every orientation of the deck a chance to exist.
             <br />
             <br />
         </div>
