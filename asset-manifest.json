@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BadShuffler/static/css/main.ff86fea2.chunk.css",
-    "main.js": "/BadShuffler/static/js/main.76f6935f.chunk.js",
-    "main.js.map": "/BadShuffler/static/js/main.76f6935f.chunk.js.map",
+    "main.js": "/BadShuffler/static/js/main.082c981c.chunk.js",
+    "main.js.map": "/BadShuffler/static/js/main.082c981c.chunk.js.map",
     "runtime-main.js": "/BadShuffler/static/js/runtime-main.0d190006.js",
     "runtime-main.js.map": "/BadShuffler/static/js/runtime-main.0d190006.js.map",
     "static/css/2.6206b865.chunk.css": "/BadShuffler/static/css/2.6206b865.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.6206b865.chunk.css",
     "static/js/2.5d374179.chunk.js",
     "static/css/main.ff86fea2.chunk.css",
-    "static/js/main.76f6935f.chunk.js"
+    "static/js/main.082c981c.chunk.js"
   ]
 }
