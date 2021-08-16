@@ -1,18 +1,12 @@
 {
   "files": {
-    "main.css": "/BadShuffler/static/css/main.ff86fea2.chunk.css",
+    "main.css": "/BadShuffler/static/css/main.ca06a41e.chunk.css",
     "main.js": "/BadShuffler/static/js/main.51dd24e7.chunk.js",
-    "main.js.map": "/BadShuffler/static/js/main.51dd24e7.chunk.js.map",
     "runtime-main.js": "/BadShuffler/static/js/runtime-main.0d190006.js",
-    "runtime-main.js.map": "/BadShuffler/static/js/runtime-main.0d190006.js.map",
-    "static/css/2.6206b865.chunk.css": "/BadShuffler/static/css/2.6206b865.chunk.css",
+    "static/css/2.7ad9fffc.chunk.css": "/BadShuffler/static/css/2.7ad9fffc.chunk.css",
     "static/js/2.34ac7dbc.chunk.js": "/BadShuffler/static/js/2.34ac7dbc.chunk.js",
-    "static/js/2.34ac7dbc.chunk.js.map": "/BadShuffler/static/js/2.34ac7dbc.chunk.js.map",
     "static/js/3.5d9516f4.chunk.js": "/BadShuffler/static/js/3.5d9516f4.chunk.js",
-    "static/js/3.5d9516f4.chunk.js.map": "/BadShuffler/static/js/3.5d9516f4.chunk.js.map",
     "index.html": "/BadShuffler/index.html",
-    "static/css/2.6206b865.chunk.css.map": "/BadShuffler/static/css/2.6206b865.chunk.css.map",
-    "static/css/main.ff86fea2.chunk.css.map": "/BadShuffler/static/css/main.ff86fea2.chunk.css.map",
     "static/js/2.34ac7dbc.chunk.js.LICENSE.txt": "/BadShuffler/static/js/2.34ac7dbc.chunk.js.LICENSE.txt",
     "static/media/club.d51191ce.svg": "/BadShuffler/static/media/club.d51191ce.svg",
     "static/media/diamond.587172c7.svg": "/BadShuffler/static/media/diamond.587172c7.svg",
@@ -21,9 +15,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0d190006.js",
-    "static/css/2.6206b865.chunk.css",
+    "static/css/2.7ad9fffc.chunk.css",
     "static/js/2.34ac7dbc.chunk.js",
-    "static/css/main.ff86fea2.chunk.css",
+    "static/css/main.ca06a41e.chunk.css",
     "static/js/main.51dd24e7.chunk.js"
   ]
 }
