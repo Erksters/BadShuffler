@@ -4,6 +4,7 @@ import { Button, Col, Row } from 'react-bootstrap';
 import ShowCards from './ShowCards';
 import OrderedDeck from './OrderedDeck'
 import Chart from "r-chart";
+import ShowCardsAndKD from './ShowCardsAndKD';
 
 const BestShuffle = () => {
 
@@ -93,6 +94,18 @@ const BestShuffle = () => {
                     <Button onClick={HandleReset} style={{ margin: '5px' }} >Reset</Button>
 
                 </Row>
+                <br />
+                <Row style={{ justifyContent: 'center', border: 'solid' }}>
+                    <h4>Number of Shuffles: {StoredValues.length - 1}</h4>
+                </Row>
+                <br />
+
+                <Row style={{ justifyContent: 'center' }}>
+                    <ShowCardsAndKD AllCards={NewDeck} />
+                </Row>
+
+                <br />
+                <Row style={{ justifyContent: 'center' }}> <strong>Follow the Journey of the King of Diamonds to the Top</strong></Row>
 
                 <Row style={{ justifyContent: 'center' }}>
                     <Chart
@@ -108,14 +121,8 @@ const BestShuffle = () => {
                             xAxis
                         }
                     />
-
-                </Row>
-
-                <Row style={{ justifyContent: 'center' }}>
-                    <ShowCards AllCards={NewDeck} />
                 </Row>
             </Col>
-
         </div>
     );
 }

@@ -1,3 +1,4 @@
+import Introduction from "./Introduction"
 
 const Title = () => {
 
@@ -5,9 +6,14 @@ const Title = () => {
     return (
         <div style={{ textAlign: 'center' }}>
             <h1>
-                Why You're So Bad At Shuffling
+                The Mathematics Behind a Deck of Cards
             </h1>
             <h3>By Erick Saenz</h3>
+
+            <br />
+            ***
+            <Introduction />
+            ***
         </div>
 
     );

@@ -6,7 +6,7 @@ import diamond from '../assets/diamond.svg';
 import club from '../assets/club.svg'
 import "./invert.css"
 
-const ShowCards = props => {
+const ShowCardsAndKD = props => {
     const { AllCards } = props;
 
     const suitDictionary = {
@@ -23,7 +23,7 @@ const ShowCards = props => {
                     <div>
                         <Row>
                             {AllCards.slice(0, 13).map((card, index) =>
-                                <Col key={index} style={{ border: "solid", width: 90, height: 100, borderRadius: 10 }}>
+                                <Col id={card["rank"] + card["suit"]} key={index} style={{ border: "solid", width: 90, height: 100, borderRadius: 10 }}>
                                     {card["rank"]}
                                     <img src={suitDictionary[card["suit"]]} alt="suit" />
                                 </Col>
@@ -32,7 +32,7 @@ const ShowCards = props => {
 
                         <Row>
                             {AllCards.slice(13, 26).map((card, index) =>
-                                <Col key={index} style={{ border: "solid", width: 90, height: 100, borderRadius: 10 }}>
+                                <Col id={card["rank"] + card["suit"]} key={index} style={{ border: "solid", width: 90, height: 100, borderRadius: 10 }}>
                                     {card["rank"]}
                                     <img src={suitDictionary[card["suit"]]} alt="suit" />
                                 </Col>
@@ -41,7 +41,7 @@ const ShowCards = props => {
 
                         <Row>
                             {AllCards.slice(26, 39).map((card, index) =>
-                                <Col key={index} style={{ border: "solid", width: 90, height: 100, borderRadius: 10 }}>
+                                <Col id={card["rank"] + card["suit"]} key={index} style={{ border: "solid", width: 90, height: 100, borderRadius: 10 }}>
                                     {card["rank"]}
                                     <img src={suitDictionary[card["suit"]]} alt="suit" />
                                 </Col>
@@ -50,7 +50,7 @@ const ShowCards = props => {
 
                         <Row>
                             {AllCards.slice(39, 52).map((card, index) =>
-                                <Col key={index} style={{ border: "solid", width: 90, height: 100, borderRadius: 10 }}>
+                                <Col id={card["rank"] + card["suit"]} key={index} style={{ border: "solid", width: 90, height: 100, borderRadius: 10 }}>
                                     {card["rank"]}
                                     <img src={suitDictionary[card["suit"]]} alt="suit" />
                                 </Col>
@@ -65,7 +65,7 @@ const ShowCards = props => {
                     (<div>
                         <Row >
                             {AllCards.slice(0, 13).map((card, index) =>
-                                <rect key={index} style={{ width: (window.screen.width - 80) / 13, height: 80, border: "solid", borderRadius: 4, margin: '1px' }}>
+                                <rect id={card["rank"] + card["suit"]} key={index} style={{ width: (window.screen.width - 80) / 13, height: 80, border: "solid", borderRadius: 4, margin: '1px' }}>
                                     {card["rank"]}
                                     <img src={suitDictionary[card["suit"]]} alt="suit" />
                                 </rect>
@@ -74,7 +74,7 @@ const ShowCards = props => {
 
                         <Row >
                             {AllCards.slice(13, 26).map((card, index) =>
-                                <rect key={index} style={{ width: (window.screen.width - 80) / 13, height: 80, border: "solid", borderRadius: 4, margin: '1px' }}>
+                                <rect id={card["rank"] + card["suit"]} key={index} style={{ width: (window.screen.width - 80) / 13, height: 80, border: "solid", borderRadius: 4, margin: '1px' }}>
                                     {card["rank"]}
                                     <img src={suitDictionary[card["suit"]]} alt="suit" />
                                 </rect>
@@ -83,7 +83,7 @@ const ShowCards = props => {
 
                         <Row >
                             {AllCards.slice(26, 39).map((card, index) =>
-                                <rect key={index} style={{ width: (window.screen.width - 80) / 13, height: 80, border: "solid", borderRadius: 4, margin: '1px' }}>
+                                <rect id={card["rank"] + card["suit"]} key={index} style={{ width: (window.screen.width - 80) / 13, height: 80, border: "solid", borderRadius: 4, margin: '1px' }}>
                                     {card["rank"]}
                                     <img src={suitDictionary[card["suit"]]} alt="suit" />
                                 </rect>
@@ -92,7 +92,7 @@ const ShowCards = props => {
 
                         <Row >
                             {AllCards.slice(39, 52).map((card, index) =>
-                                <rect key={index} style={{ width: (window.screen.width - 80) / 13, height: 80, border: "solid", borderRadius: 4, margin: '1px' }}>
+                                <rect id={card["rank"] + card["suit"]} key={index} style={{ width: (window.screen.width - 80) / 13, height: 80, border: "solid", borderRadius: 4, margin: '1px' }}>
                                     {card["rank"]}
                                     <img src={suitDictionary[card["suit"]]} alt="suit" />
                                 </rect>
@@ -109,4 +109,4 @@ const ShowCards = props => {
     );
 
 }
-export default ShowCards;
+export default ShowCardsAndKD;

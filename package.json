@@ -20,6 +20,7 @@
     "react-canvas-spark-line": "^1.0.1",
     "react-dom": "^17.0.2",
     "react-line-graph": "^1.0.6",
+    "react-mathjax": "^1.0.1",
     "react-playing-card": "^0.2.5",
     "react-playing-cards": "git+https://github.com/listingslab/react-playing-cards.git",
     "react-poker": "0.0.77",
@@ -28,11 +29,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -53,3 +54,4 @@
     ]
   }
 }
+

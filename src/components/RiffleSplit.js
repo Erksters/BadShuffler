@@ -151,6 +151,14 @@ const RiffleSplit = () => {
                     <Button onClick={HandleReset} style={{ margin: '5px' }} >Reset</Button>
                 </Row>
 
+
+                <br />
+                <Row style={{ justifyContent: 'center' }}>
+                    <ShowCards AllCards={NewDeck} />
+                </Row>
+
+                <br />
+                <Row style={{ justifyContent: 'center' }}> <strong>Compare Top Half Sum vs Bottom Half Sum</strong></Row>
                 <Row style={{ justifyContent: 'center' }}>
                     <Chart
                         data={[
@@ -165,10 +173,6 @@ const RiffleSplit = () => {
                             xAxis
                         }
                     />
-                </Row>
-
-                <Row style={{ justifyContent: 'center' }}>
-                    <ShowCards AllCards={NewDeck} />
                 </Row>
             </Col>
         </div>

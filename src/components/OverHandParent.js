@@ -24,13 +24,15 @@ const OverHandParent = () => {
             <OverHand />
 
             <br />
-            This shuffle is by far worse that the Riffle split because it isn't
+            This shuffle is, by far, worse that the Riffle split because it isn't
             moving more than a few cards at a time. The position of a card and
             it's neighbors will not vary half the time. Even if we were to shuffle
             hundreds and hundreds of times (Shuffle 100), there is still a high card bias with every other
             shuffle. So depending on the number of times you shuffle (Even VS. Odd number of times), you may or may not
             play with many high cards.
             <br />
+            <br />
+            Next let's look at a proper shuffling technique.
 
         </div>
     )

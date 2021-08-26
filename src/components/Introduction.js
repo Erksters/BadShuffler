@@ -4,11 +4,9 @@ const Introduction = () => {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      This site explores many different techniques
-      to shuffle a standard deck of cards and compares
-      these methods to each other. Many of these shuffling
-      techniques are common amongst card players.
-      Other techniques are unheard of.
+      This site explores the mathematics behind a standard deck of cards as
+      well as some shuffling techniques. The purpose is to teach some simple math
+      expressions and concepts in an approachable way.
     </div>
   );
 }
